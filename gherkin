@@ -37,9 +37,10 @@ pb_star="$(printf '\035')"
 pb_get="^$"
 pb_unget="^$"
 history_flag=1
+default_prompt="gherkin>"
 
 readline() {
-  local IFS=$'\n\b' prompt="> " line
+  local IFS=$'\n\b' prompt="$default_prompt " line
   set -f
   read -e -r -p "$prompt" line || exit 0
   pb_get="${pb_get:0:$((${#pb_get}-1))}${line}${pb_newline}$"
