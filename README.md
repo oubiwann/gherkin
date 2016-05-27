@@ -1,4 +1,6 @@
-> **This project is dormant.**  I have not worked on it in years, and am unlikely to continue work on it anytime soon.  I encourage you to check out "mal" -- "Make a Lisp" -- by Joel Martin, a project inspired by this one, that includes implementations in dozens of languages, including Bash: https://github.com/kanaka/mal.  While it's missing garbage collection, mal's Bash Lisp is incredibly clean and easy to hack on.
+> **The main fork of this project is dormant.**  I have not worked on it in years, and am unlikely to continue work on it anytime soon.  I encourage you to check out "mal" -- "Make a Lisp" -- by Joel Martin, a project inspired by this one, that includes implementations in dozens of languages, including Bash: https://github.com/kanaka/mal.  While it's missing garbage collection, mal's Bash Lisp is incredibly clean and easy to hack on.
+
+> **This fork is a playground.** Hacking on it for fun and for shell scripting. I like it better than mal :-)
 
 # gherkin
 
